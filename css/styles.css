@@ -239,6 +239,7 @@ img {
 
 /* Модальное окно */
 .backdrop {
+  visibility: visible;
   position: fixed;
   top: 0;
   left: 0;
