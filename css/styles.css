@@ -232,8 +232,8 @@ a {
   transition: background-color 250ms var(--transition-timing-function);
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--button-hover);
 }
 
