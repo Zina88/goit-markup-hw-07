@@ -63,4 +63,17 @@ button {
 .section {
   padding: 94px 0;
 }
+
+.logo {
+  margin-right: 93px;
+  color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-icon {
+  color: #2196f3;
+}
 /*# sourceMappingURL=main.css.map */
