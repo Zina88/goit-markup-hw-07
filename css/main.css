@@ -50,7 +50,6 @@ img {
   height: auto;
 }
 
-/*для скрытия подчеркивания*/
 a {
   text-decoration: none;
 }
@@ -63,7 +62,6 @@ button {
   text-decoration: none;
 }
 
-/* Верхний и нижний отступ */
 .section {
   padding: 94px 0;
 }
@@ -298,7 +296,7 @@ button {
   margin-left: auto;
   width: 30px;
   height: 30px;
-  background-color: var(--white-color);
+  background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
