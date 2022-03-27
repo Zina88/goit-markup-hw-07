@@ -5,6 +5,7 @@
 
 @import './base/all-styles';
 
+/////index.html
 @import './components/logo';
 @import './components/navigation';
 @import './components/contacts';
@@ -16,3 +17,7 @@
 @import './components/our-clients';
 @import './components/clients';
 @import './components/footer';
+
+/////Portfolio.html
+@import './components/filter-buttons';
+@import './components/gallery';
