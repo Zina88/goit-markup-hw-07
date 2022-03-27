@@ -1,4 +1,4 @@
-clients {
+.clients {
   text-align: center;
 }
 
@@ -19,12 +19,8 @@ clients {
   margin: 0;
 }
 
-.clients__item {
+.clients__item:not(:last-child) {
   margin-right: 30px;
-}
-
-.clients__item:last-child {
-  margin-right: 0;
 }
 
 .clients__link {
