@@ -17,10 +17,6 @@
   pointer-events: none;
 }
 
-.backdrop.is-hidden .modal-box {
-  transform: translate(-50%, -50%) scale(0);
-}
-
 .modal-box {
   position: absolute;
   top: 50%;
@@ -37,6 +33,10 @@
   transform: translate(-50%, -50%) scale(1);
 
   transition: transform 250ms $transition-timing-function;
+
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -50%) scale(0);
+  }
 }
 
 .modal-box__btn {
@@ -156,18 +156,18 @@
     border-color: $accent-color;
     outline: none;
   }
-}
 
-.textarea__field::placeholder {
-  font-size: $font-size-12;
-  line-height: $line-height-114;
-  letter-spacing: 0.01em;
+  &::placeholder {
+    font-size: $font-size-12;
+    line-height: $line-height-114;
+    letter-spacing: 0.01em;
 
-  color: rgba(117, 117, 117, 0.5);
-  transition: color 250ms transition-timing-function;
-}
-.textarea__field:focus::placeholder {
-  color: $accent-color;
+    color: rgba(117, 117, 117, 0.5);
+    transition: color 250ms transition-timing-function;
+  }
+  &:focus::placeholder {
+    color: $accent-color;
+  }
 }
 
 .modal-policy {
@@ -223,16 +223,16 @@
 
   letter-spacing: 0.03em;
   color: $accent-color;
-}
 
-.modal-policy__agreement::after {
-  position: absolute;
-  content: '';
-  top: 14.5px;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background-color: $accent-color;
+  &::after {
+    position: absolute;
+    content: '';
+    top: 14.5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: $accent-color;
+  }
 }
 
 .modal__submit {
@@ -256,8 +256,9 @@
   color: $white-color;
 
   transition: background-color 250ms $transition-timing-function;
-}
-.modal__submit:hover,
-.modal__submit:focus {
-  background-color: $button-hover;
+
+  &:hover,
+  &:focus {
+    background-color: $button-hover;
+  }
 }

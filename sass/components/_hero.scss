@@ -42,9 +42,9 @@
   line-height: $line-height-188;
 
   transition: background-color 250ms $transition-timing-function;
-}
 
-.hero__button:hover,
-.hero__button:focus {
-  background-color: $button-hover;
+  &:hover,
+  &:focus {
+    background-color: $button-hover;
+  }
 }
