@@ -9,12 +9,12 @@
   opacity: 1;
   transition: opacity 250ms $transition-timing-function,
     visibility 250ms $transition-timing-function;
-}
 
-.backdrop.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
+  &.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 .modal-box {
@@ -194,16 +194,16 @@
   transition: transform 250ms $transition-timing-function,
     background-color 250ms $transition-timing-function,
     border-color 250ms $transition-timing-function;
-}
 
-.modal-policy__input:checked + .modal-policy__check {
-  background-color: $accent-color;
-  border-color: $accent-color;
-  background-image: url(../images/icon-check.svg);
-  background-size: contain;
+  .modal-policy__input:checked + & {
+    background-color: $accent-color;
+    border-color: $accent-color;
+    background-image: url(../images/icon-check.svg);
+    background-size: contain;
 
-  background-origin: border-box;
-  transform: scale(1);
+    background-origin: border-box;
+    transform: scale(1);
+  }
 }
 
 .modal-policy__text {
