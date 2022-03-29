@@ -438,19 +438,19 @@ button {
   transition: color 250ms transition-timing-function;
 }
 
-.textarea__field:focus::-webkit-input-placeholder {
+.textarea__field::-webkit-input-placeholder:focus::-webkit-input-placeholder {
   color: #2196f3;
 }
 
-.textarea__field:focus:-ms-input-placeholder {
+.textarea__field:-ms-input-placeholder:focus:-ms-input-placeholder {
   color: #2196f3;
 }
 
-.textarea__field:focus::-ms-input-placeholder {
+.textarea__field::-ms-input-placeholder:focus::-ms-input-placeholder {
   color: #2196f3;
 }
 
-.textarea__field:focus::placeholder {
+.textarea__field::placeholder:focus::placeholder {
   color: #2196f3;
 }
 
@@ -565,6 +565,10 @@ button {
       flex-basis: calc((100% - 90px) / 4);
 }
 
+.feature__item:last-child {
+  margin-right: 0;
+}
+
 .benefits {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -579,10 +583,6 @@ button {
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
-}
-
-.feature__item:last-child {
-  margin-right: 0;
 }
 
 .benefits__title {

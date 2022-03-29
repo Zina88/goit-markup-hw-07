@@ -156,15 +156,16 @@
     border-color: $accent-color;
     outline: none;
   }
+}
 
-  &::placeholder {
-    font-size: $font-size-12;
-    line-height: $line-height-114;
-    letter-spacing: 0.01em;
+.textarea__field::placeholder {
+  font-size: $font-size-12;
+  line-height: $line-height-114;
+  letter-spacing: 0.01em;
 
-    color: rgba(117, 117, 117, 0.5);
-    transition: color 250ms transition-timing-function;
-  }
+  color: rgba(117, 117, 117, 0.5);
+  transition: color 250ms transition-timing-function;
+
   &:focus::placeholder {
     color: $accent-color;
   }
