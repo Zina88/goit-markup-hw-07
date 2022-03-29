@@ -153,13 +153,12 @@
     border-color: rgba(255, 255, 255, 0.5);
     outline: none;
   }
-}
 
-.form__input::placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.3);
 
-  transition: color 250ms $transition-timing-function;
-
+    transition: color 250ms $transition-timing-function;
+  }
   &:hover::placeholder,
   &:focus::placeholder {
     color: rgba(255, 255, 255, 0.5);

@@ -57,10 +57,6 @@ button {
   cursor: pointer;
 }
 
-.link {
-  text-decoration: none;
-}
-
 .section {
   padding: 94px 0;
 }
@@ -766,7 +762,6 @@ button {
   color: #212121;
 }
 
-/* ul */
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1005,19 +1000,19 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form__input::-webkit-input-placeholder:hover::-webkit-input-placeholder, .form__input::-webkit-input-placeholder:focus::-webkit-input-placeholder {
+.form__input:hover::-webkit-input-placeholder, .form__input:focus::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.form__input:-ms-input-placeholder:hover:-ms-input-placeholder, .form__input:-ms-input-placeholder:focus:-ms-input-placeholder {
+.form__input:hover:-ms-input-placeholder, .form__input:focus:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.form__input::-ms-input-placeholder:hover::-ms-input-placeholder, .form__input::-ms-input-placeholder:focus::-ms-input-placeholder {
+.form__input:hover::-ms-input-placeholder, .form__input:focus::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.form__input::placeholder:hover::placeholder, .form__input::placeholder:focus::placeholder {
+.form__input:hover::placeholder, .form__input:focus::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
