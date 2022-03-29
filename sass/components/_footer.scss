@@ -3,7 +3,7 @@
   background-color: $section-color;
 }
 
-.footer {
+.page-footer--bgc {
   align-items: baseline;
   display: flex;
 }
@@ -26,7 +26,7 @@
   color: $accent-color;
 }
 
-.addres__list {
+.addres {
   width: 231px;
 }
 
@@ -77,18 +77,18 @@
   margin-bottom: 20px;
 }
 
-.accede__list {
+.social {
   display: flex;
   padding: 0;
   margin: 0;
   width: 206px;
 }
 
-.accede__item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.accede__link {
+.social__link {
   @include centerFlex();
   width: 44px;
   height: 44px;
@@ -103,7 +103,7 @@
   }
 }
 
-.accede__logo {
+.social__logo {
   fill: currentColor;
 }
 
@@ -118,7 +118,7 @@
   color: $white-color;
 }
 
-.subscribe-form {
+.form--position {
   position: relative;
   display: flex;
   margin: 0 auto;
@@ -165,7 +165,7 @@
   }
 }
 
-.form-btn {
+.form__btn {
   @include centerFlex();
   text-align: inherit;
   padding: 10px 30px;

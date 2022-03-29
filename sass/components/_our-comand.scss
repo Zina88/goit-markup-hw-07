@@ -1,18 +1,8 @@
-.comand {
+.section--other-bgc {
   background-color: $button-bgc;
 }
 
-.comand__title {
-  margin-bottom: 50px;
-  color: $title-text-color;
-  font-weight: $font-weight-700;
-  font-size: $font-size-36;
-  line-height: $line-height-116;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
-.comand__list {
+.comand {
   display: flex;
   flex-wrap: wrap;
 }

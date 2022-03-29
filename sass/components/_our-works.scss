@@ -1,17 +1,8 @@
-.work {
+.section--padding-top {
   padding-top: 0;
 }
-.work__title {
-  text-align: center;
-  margin-bottom: 50px;
-  color: $title-text-color;
-  font-weight: $font-weight-700;
-  font-size: $font-size-36;
-  line-height: $line-height-116;
-  letter-spacing: 0.03em;
-}
 
-.work__list {
+.work {
   display: flex;
   flex-wrap: wrap;
 }
@@ -19,11 +10,11 @@
   margin-right: 30px;
 }
 
-.work-thumb {
+.work__thumb {
   position: relative;
 }
 
-.work-thumb__text {
+.work__text {
   @include centerFlex();
   position: absolute;
   bottom: 0;

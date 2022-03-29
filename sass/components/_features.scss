@@ -1,4 +1,4 @@
-.feature__list {
+.feature {
   display: flex;
   flex-wrap: wrap;
 }
@@ -12,7 +12,7 @@
   }
 }
 
-.benefits {
+.feature__box {
   @include centerFlex();
   margin-bottom: 30px;
   background-color: $bgc-feature;
@@ -20,7 +20,7 @@
   height: 120px;
 }
 
-.benefits__title {
+.feature__title {
   color: $title-text-color;
   font-weight: $font-weight-700;
   font-size: $font-size-14;
@@ -31,7 +31,7 @@
   margin-bottom: 10px;
 }
 
-.benefits__text {
+.feature__text {
   font-size: $font-size-14;
   line-height: $line-height-171;
   letter-spacing: 0.03em;

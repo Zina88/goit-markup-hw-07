@@ -1,18 +1,8 @@
+.section--text-align {
+  text-align: center;
+}
+
 .clients {
-  text-align: center;
-}
-
-.clients__title {
-  text-align: center;
-  margin-bottom: 50px;
-  font-weight: $font-weight-700;
-  font-size: $font-size-36;
-  line-height: $line-height-151;
-  letter-spacing: 0.03em;
-  color: $title-text-color;
-}
-
-.clients__list {
   display: flex;
   padding: 0;
   margin: 0;
