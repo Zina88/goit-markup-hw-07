@@ -49,15 +49,15 @@
   .grid__link:focus & {
     transform: translate(0);
   }
-}
 
-.thumb__text > p {
-  padding: 63px 24px;
+  & > p {
+    padding: 63px 24px;
 
-  font-size: $font-size-18;
-  line-height: $line-height-156;
-  letter-spacing: 0.03em;
-  color: $white-color;
+    font-size: $font-size-18;
+    line-height: $line-height-156;
+    letter-spacing: 0.03em;
+    color: $white-color;
+  }
 }
 
 .aside {
